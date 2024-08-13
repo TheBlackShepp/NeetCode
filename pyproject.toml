@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "neetcode-roadmap-status"
+version = "0.0.1"
+authors = [
+  {name="TheBlackShepp", email="alvaro.gutierrez.hernandez@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+  "pytest>=8"
+]
+
+[project.urls]
+Homepage = "https://github.com/TheBlackShepp/NeetCode"
+NeetCode = "https://neetcode.io/roadmap"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
