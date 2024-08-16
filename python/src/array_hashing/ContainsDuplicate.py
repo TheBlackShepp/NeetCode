@@ -19,7 +19,7 @@ Example 2:
 ```
 """
 
-class Solution:
+class ContainsDuplicate:
     def hasDuplicate(self, nums: list[int]) -> bool:
         for num in nums:
             if nums.count(num) > 1:
